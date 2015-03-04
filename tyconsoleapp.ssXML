@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Consoleapp Library</Name>
+  <Header>namespace tycho
+{
+namespace consoleapp
+{
+
+    $(ClassDef)
+
+} // end namespace
+} // end namespace</Header>
+  <Source>namespace tycho
+{
+namespace consoleapp
+{
+
+    //--------------------------------------------------------------------
+
+
+
+    //--------------------------------------------------------------------
+
+
+} // end namespace
+} // end namespace</Source>
+  <SrcDir>./</SrcDir>
+  <IncDir>./</IncDir>
+  <HdrIncludes>#include "consoleapp/consoleapp_abi.h"
+#include "consoleapp/forward_decls.h"
+</HdrIncludes>
+  <SrcIncludes />
+  <ABI>TYCHO_CONSOLEAPP_ABI</ABI>
+</ProjectSettings>
