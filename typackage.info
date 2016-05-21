@@ -3,9 +3,11 @@
 	"workspace_mapping" : "@{ty_hub_lib}",
 	"build_system" : {
 		"cmake" : {
-			"input" : "CMakeLists.txt",
-			"include" : [
-				"path" : "@{ty_hub_lib}"	
+			"inputs" : [
+				"CMakeLists.txt"
+			],
+			"includes" : [
+				@{ty_hub_lib}"	
 			]
 		}
 	}
