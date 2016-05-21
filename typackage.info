@@ -7,7 +7,7 @@
 				"CMakeLists.txt"
 			],
 			"includes" : [
-				@{ty_hub_lib}"	
+				"@{ty_hub_lib}"	
 			]
 		}
 	}
