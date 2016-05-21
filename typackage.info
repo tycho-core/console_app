@@ -4,7 +4,6 @@
 	"build_system" : {
 		"cmake" : {
 			"inputs" : [
-				"CMakeLists.txt"
 			],
 			"includes" : [
 				"@{ty_hub_lib}"	
